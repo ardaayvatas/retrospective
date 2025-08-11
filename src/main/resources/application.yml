@@ -15,6 +15,9 @@ spring:
     multipart:
       max-file-size: 10MB
       max-request-size: 10MB
+  batch:
+    jdbc:
+      initialize-schema: never
 
 server:
   port: 8081
